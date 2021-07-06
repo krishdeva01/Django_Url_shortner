@@ -1,0 +1,11 @@
+
+<div class="contaier">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <form method=" POST" action="/create/">
+    {% csrf_token %}
+    {{form.as_p}}
+   <h2> <center><button type="submit" class="btn-btn-danger" >create</button></center></h2>
+    </form>
+    
+</div>
